@@ -1,0 +1,29 @@
+.comment {
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #6e6b6b;
+  color: #ffffff;
+}
+
+.comment:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.comment__author {
+  font-weight: bold;
+}
+
+.comment__footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.comment__date {
+  font-size: 12px;
+}
+
+.comment__delete {
+  cursor: pointer;
+}
