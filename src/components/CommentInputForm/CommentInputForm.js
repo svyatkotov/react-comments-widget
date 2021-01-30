@@ -12,6 +12,7 @@ export default class CommentInputForm extends React.Component {
           onChange={this.props.onInputChange}
           placeholder='Имя'
           className='form__input'
+          required={this.props.required}
         />
         <textarea 
           type='text'
@@ -20,6 +21,7 @@ export default class CommentInputForm extends React.Component {
           onChange={this.props.onInputChange}
           placeholder='Комментарий'
           className='form__input'
+          required={this.props.required}
         />
         <input 
           type='submit'

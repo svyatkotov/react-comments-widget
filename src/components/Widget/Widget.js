@@ -71,6 +71,7 @@ export default class Widget extends React.Component {
           text={this.state.currentText}
           onFormSubmit={this.handleFormSubmit}
           onInputChange={this.handleInputChange}
+          required='required'
         />
       </div>
     );
