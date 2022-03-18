@@ -1,2 +1,3 @@
 # react-comments-widget
-React-виджет для написания комментариев с хранением состояния в классе компонента.
+
+React widjet for writing comments, that keeps data in the state of the class component.
